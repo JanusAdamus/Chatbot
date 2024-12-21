@@ -12,6 +12,101 @@
 
 ## Documentación para Replicar
 
+### Objetivo
+Implementar un chatbot funcional equivalente al creado en este proyecto.
+
+---
+
+### Requisitos Previos
+1. Cuenta en [Landbot](https://landbot.io/).
+2. Flowchart del chatbot, incluyendo nodos y decisiones.
+3. Contenido necesario:
+   - Texto del mensaje inicial.
+   - Opciones para los botones de la lista.
+   - Recursos adicionales, como imágenes o enlaces.
+
+---
+
+### Pasos para Configurar el Chatbot
+
+#### 1. Crear un Nuevo Chatbot
+1. Inicia sesión en [Landbot Dashboard](https://app.landbot.io/).
+2. Haz clic en **"Crear Chatbot"** y selecciona el tipo:
+   - **Web**: Ideal para sitios web.
+   - **WhatsApp**: Para comunicación en WhatsApp.
+   - **Messenger**: Para Facebook Messenger.
+
+---
+
+#### 2. Configurar el Mensaje Inicial con List Buttons
+
+1. **Añadir un Bloque de Pregunta:**
+   - Arrastra un bloque de **"Botón de lista"** al canvas del editor.
+   - Conecta el punto de inicio a este nuevo bloque.
+
+2. **Configurar el Contenido del Mensaje Inicial:**
+   - Escribe el texto del mensaje, por ejemplo:
+     ```
+     Aquí encontrarás toda la información que consideramos imprenscindible para que tengas todo el éxito
+     ```
+   - Añade las opciones según el flowchart:
+     - **Opción 1:** "Bajas"
+     - **Opción 2:** "Croquis"
+     - **Opción 3:** "Actividades en el Itam"
+     - **Opción 4:** "Org. Estudiantiles"
+     - **Opción 5:** "Armar horario"
+     - **Opción 6:** "Eventos"
+
+
+---
+
+#### 3. Diseñar los Flujos Posteriores
+
+1. **Crear Bloques de Continuación:**
+   - De acuerdo al diagrama de flujo, crea y conecta bloques de los siguientes tipos:
+     - **"Mensaje"**: Para mostrar respuestas estáticas (texto o imágenes).
+     - **"Botón de lista"**: Para capturar información adicional.
+
+
+
+---
+
+#### 4. Pruebas
+
+1. Activa la **vista previa** para probar el flujo.
+2. Simula diferentes rutas para verificar que todas las opciones funcionan correctamente.
+
+---
+
+#### 5. Publicación
+
+1. Haz clic en **"Publicar"**.
+2. Integra el chatbot en el canal deseado:
+   - **Código para insertar**: Si es para un sitio web.
+   - **Enlace compartible**: Para pruebas o acceso rápido.
+   - **WhatsApp/Messenger**: Configura la integración correspondiente.
+
+---
+
+#### 6. Optimización Continua
+
+1. **Seguimiento:**
+   - Revisa métricas desde el panel de análisis:
+     - Tasa de clics en los botones.
+     - Conversaciones completadas.
+2. **Ajustes:**
+   - Realiza mejoras según los datos y la retroalimentación de los usuarios.
+
+---
+
+
+### Notas Finales
+
+- Monitorea el rendimiento del chatbot regularmente.
+- Actualiza el flujo según las necesidades de los usuarios.
+- Documenta los cambios importantes para futuras referencias.
+
+
 ## Propuesta Económica
 
 Esta sección presenta una propuesta económica detallada para el desarrollo del proyecto, incluyendo la construcción de un menú inicial y el desarrollo de opciones específicas derivadas de este. Además, se considera el impacto y los costos asociados a los roles de apoyo general y un costo fijo relacionado con el equipo. A través de un desglose claro de los días estimados, días reales, capacidad utilizada y costos por rol, esta propuesta busca ofrecer una visión transparente y precisa de la inversión necesaria para llevar a cabo el proyecto con éxito. Todos los cálculos realizados para esta propuesta pueden ser encontrados en el archivo [Propuesta Económica/PropuestaEconómica.xlsx](Propuesta%20Económica/PropuestaEconómica.xlsx).
@@ -158,9 +253,6 @@ Esta sección presenta una propuesta económica detallada para el desarrollo del
 | **Subtotal**                  | $67,714 MXN   |
 | **IVA (16%)**                 | $10,834 MXN|
 | **Total con IVA**             | **$78,548 MXN** |
-
-**Costo total del proyecto**: **$78,548 MXN**
-
 
 **Costo total del proyecto**: **$78,548 MXN**
 

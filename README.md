@@ -398,6 +398,4 @@ Esta sección presenta una propuesta económica detallada para el desarrollo del
 
 **Costo total del proyecto**: **$78,548 MXN**
 
-### Conclusión
-
 El costo total de desarrollar el Chatbot para alumnos de nuevo ingreso al ITAM es de **$78,548 MXN**. La propuesta presentada ofrece un desglose claro y detallado de los costos asociados al desarrollo del proyecto, garantizando transparencia en cada etapa del proceso. Con un enfoque en la eficiencia y el aprovechamiento óptimo de los recursos del equipo, esta inversión no solo asegura la entrega de un producto funcional y de alta calidad, sino que también establece una base sólida para futuras expansiones o mejoras. 

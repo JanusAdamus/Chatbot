@@ -32,9 +32,7 @@ Implementar un chatbot funcional equivalente al creado en este proyecto.
 #### 1. Crear un Nuevo Chatbot
 1. Inicia sesión en [Landbot Dashboard](https://app.landbot.io/).
 2. Haz clic en **"Crear Chatbot"** y selecciona el tipo:
-   - **Web**: Ideal para sitios web.
    - **WhatsApp**: Para comunicación en WhatsApp.
-   - **Messenger**: Para Facebook Messenger.
 
 ---
 
@@ -66,8 +64,41 @@ Implementar un chatbot funcional equivalente al creado en este proyecto.
    - De acuerdo al diagrama de flujo, crea y conecta bloques de los siguientes tipos:
      - **"Mensaje"**: Para mostrar respuestas estáticas (texto o imágenes).
      - **"Botón de lista"**: Para capturar información adicional.
+2. **Recursos Disponibles:**
+   - El diagrama de flujo está disponible en la carpeta `FlowDiagram` bajo los nombres:
+     - [`Flow1.png`](FlowDiagram/Flow1.png)
+     - [`Flow2.png`](FlowDiagram/Flow2.png)
+   - Todos los archivos multimedia necesarios para completar el bot están en la carpeta [`FlowDiagram/Media`](FlowDiagram/Media/).
 
 
+    ##### Instrucciones para Crear Bloques
+
+    ###### Crear un Bloque de **"Mensaje"**
+    1. Arrastra un bloque de **"Mensaje de texto"** al canvas desde el menú lateral del editor de Landbot.
+    2. Configura el contenido del mensaje:
+    - Escribe el texto que deseas mostrar en el campo de mensaje. Ejemplo:
+        ```
+        Gracias por tu consulta. Aquí tienes la información que necesitas.
+        ```
+    - (Opcional) Agrega un **archivo multimedia**:
+        - Haz clic en el ícono de imagen o adjunta un archivo desde tu computadora.
+    3. Conecta este bloque al flujo anterior:
+    - Arrastra una línea desde el bloque previo al nuevo bloque de mensaje para garantizar que el flujo continúe correctamente.
+
+    ###### Crear un Bloque de **"Botón de lista"**
+    1. Arrastra un bloque de **"Pregunta"** al canvas desde el menú lateral.
+    2. Selecciona el tipo de pregunta como **"Botón de lista"**.
+    3. Configura las opciones:
+    - Escribe el texto principal del botón de lista. Ejemplo:
+        ```
+        ¿Qué categoría te interesa?
+        ```
+    - Agrega opciones personalizadas para el usuario. Ejemplo:
+        - Opción 1: "Electrónica"
+        - Opción 2: "Ropa"
+        - Opción 3: "Hogar"
+    4. Conecta cada opción a bloques específicos:
+    - Arrastra una línea desde cada opción a los bloques correspondientes que representen las siguientes interacciones en el flujo.
 
 ---
 
@@ -81,10 +112,7 @@ Implementar un chatbot funcional equivalente al creado en este proyecto.
 #### 5. Publicación
 
 1. Haz clic en **"Publicar"**.
-2. Integra el chatbot en el canal deseado:
-   - **Código para insertar**: Si es para un sitio web.
-   - **Enlace compartible**: Para pruebas o acceso rápido.
-   - **WhatsApp/Messenger**: Configura la integración correspondiente.
+    - Listo! Tu bot ya está puede recibir mensajes de usuarios.
 
 ---
 

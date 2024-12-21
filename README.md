@@ -62,21 +62,25 @@ Herramientas de desarrollo: Landbot y github
 **Semana 1: Planificación**
 
 Día 1-3: Establecer alcance, objetivos de calidad, y roles del equipo.
+
 Día 4-5: Redactar y aprobar el plan de calidad.
 
 **Semana 2: Requisitos y Diseño**
 
 Día 6-7: Definir requisitos funcionales y casos de prueba iniciales.
+
 Día 8-9: Diseñar arquitectura técnica y seleccionar herramientas de prueba.
 
 **Semana 3: Desarrollo y Pruebas Iniciales**
 
 Día 10-13: Crear prototipos iniciales y realizar pruebas unitarias.
+
 Día 14: Identificar y corregir errores funcionales básicos.
 
 **Semana 4: Pruebas Funcionales y Usabilidad**
 
 Día 15-16: Pruebas funcionales para validar el flujo de interacción.
+
 Día 17-18: Pruebas de usabilidad con usuarios reales y ajustes.
 
 **Semana 5: Rendimiento y Seguridad**
@@ -86,6 +90,7 @@ Día 20-22: Pruebas de carga y auditorías de seguridad.
 **Semana 6: Validación y Lanzamiento**
 
 Día 23-25: Validación final y preparación de documentación.
+
 Día 26-28: Aprobación y lanzamiento oficial del chatbot.
 
 

@@ -124,6 +124,10 @@ Metodología ágil: La iteración incremental permite revisitar los módulos par
 
 ## Código del Proyecto
 
+El código implementado corresponde directamente a un diagrama de flujo creado de manera gráfica, es decir, el código en sí es una representación gráfica de la lógica del programa. 
+
+Este diagrama, en su completitud, está compuesto por imágenes que se encuentran en la carpeta "[codigo](codigo/)" del repositorio. Esta estructura permite visualizar de forma directa y clara el flujo lógico del programa sin necesidad de una transcripción a formato textual.
+
 ## Documentación para Replicar
 
 ### Objetivo
